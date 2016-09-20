@@ -14,4 +14,4 @@ app.use(function(req, res, next) {
 
 app.use(serveStatic(__dirname + '/public'));
 app.listen(80);
-console.log("Static pages available at 'http://localhost/public/'")
+console.log("Static pages available at 'http://localhost/'")
